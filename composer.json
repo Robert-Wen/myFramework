@@ -1,0 +1,20 @@
+{
+    "name": "administrator/my-framework",
+    "description": "Remake fengphp framework...",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Robert-Wen",
+            "email": "fengze_wen@163.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "files": ["system/helper.php"],
+        "psr-4": {
+            "fengphp\\": "fengphp/",
+            "app\\": "app/",
+            "system\\": "system/"
+        }
+    }
+}
